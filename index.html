@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h1 {text-align: center;}
+      h2 {text-align: center;}
+      h1, h2, h3, p {
+        color: white;
+      }
+      html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+      html {
+        background-image: url('Images/Backgrounds/BgBanner.png'), linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('Images/Backgrounds/MainBg.gif');
+        background-repeat: repeat-y, repeat, repeat;
+        background-position: 50%;
+        background-attachment: fixed;
+        background-size: 1000px 1080px, cover, cover;
+      }
+      body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Arial, sans-serif;
+      }
+      
+      html {
+        /* For Firefox */
+        overflow-y: scroll;
+        scrollbar-color: #000000 #0d3b97;
+        scrollbar-width: thin;
+      }
+      a {
+        font-size: 18px;
+        text-align: center;
+      }
+      .button {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+      } 
+      /* left center alignment */
+      #wrap {
+        float: left;
+        position: absolute;
+        left: 25%;
+      }
+      #content {
+        float: left;
+        position: absolute;
+        left: -25%;
+      }
+      /* right center alignment */
+      #wrap2 {
+        float: left;
+        position: absolute;
+        left: 50%;
+      }
+      #content2 {
+        float: left;
+        position: absolute;
+        left: -50%;
+      }
+      /* center alignment */
+      #wrap3 {
+        float: left;
+        position: absolute;
+        left: 37.5%;
+        
+      }
+      #content3 {
+        float: left;
+        position: absolute;
+        left: -37.5%;
+        top: 200px;
+      }
+      @keyframes MainTitleAnim {
+        0%   {top:0px; animation-timing-function: ease-out;}
+        25% {top:10px; animation-timing-function: linear;}
+        50% {top:0px; animation-timing-function: ease-out;}
+        75% {top:-10px; animation-timing-function: linear;}
+        100% {top:0px; animation-timing-function: linear;}
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      #TopTitle {
+        position:relative;
+        animation-name: MainTitleAnim;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+    </style>
+    <title>SillyPage</title>
+  </head>
+  <body>
+    <header>
+      <div id="TopTitle">
+        <img src="Images/Titles/indexTitle.png" alt="title" style="width:750px;height:150px;" class = "center">
+      </div>
+    </header>
+    <main>
+      <h2></h2>
+    </main>
+    <div class="test">
+    <div id="wrap">
+      <div id="content">
+        <a href="https://applepielord291.itch.io/" class="button"><img src="Images/Buttons/GamesBtn.png" alt="CGames" style="width:456px;height:96px;"></a>
+        <a href="https://www.youtube.com/@applee3925" class="button"><img src="Images/Buttons/YoutubeBtn.png" alt="Youtube" style="width:456px;height:96px;"></a>
+      </div>
+    </div>
+    <div id="wrap2">
+      <div id="content2">
+        <a href="https://github.com/Applepielord291" class="button"><img src="Images/Buttons/GithubBtn.png" alt="Github" style="width:456px;height:96px;"></a>
+        <a href="Webpages/introduction.html" class="button"><img src="Images/Buttons/IntroBtn.png" alt="Introduction" style="width:456px;height:96px;"></a>
+      </div>
+    </div>
+    <div id="wrap3">
+      <div id="content3">
+        <a href="GameBuildInfo/game.html" class="button"><img src="Images/Buttons/ProceduralGolf.png" alt="GolfGame" style="width:456px;height:96px;"></a>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

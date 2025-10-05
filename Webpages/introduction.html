@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h1 {text-align: center;}
+      h2 {text-align: center;}
+      h1, h2, h3, p {
+        color: white;
+      }
+      html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+      html {
+        background-image: url('../Images/Backgrounds/BgBanner.png'), linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../Images/Backgrounds/MainBg.gif');
+        background-repeat: repeat-y, repeat, repeat;
+        background-position: 50%;
+        background-attachment: fixed;
+        background-size: 1000px 1080px, cover, cover;
+      }
+      body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Arial, sans-serif;
+      }
+      #InfoBox {
+        width:600px;
+        height:275px;
+        line-height:3em;
+        overflow:scroll;
+        overflow-x: hidden;
+        padding:5px;
+        border: 4px double #ffffff;
+      }
+      @keyframes MainTitleAnim {
+        0%   {top:0px; animation-timing-function: ease-out;}
+        25% {top:10px; animation-timing-function: linear;}
+        50% {top:0px; animation-timing-function: ease-out;}
+        75% {top:-10px; animation-timing-function: linear;}
+        100% {top:0px; animation-timing-function: linear;}
+      }
+      #TopTitle {
+        position:relative;
+        animation-name: MainTitleAnim;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 60px;
+      }
+      html {
+        /* For Firefox */
+        overflow-y: scroll;
+        scrollbar-color: #000000 #0d3b97;
+        scrollbar-width: thin;
+      }
+      a {
+        font-size: 18px;
+        text-align: center;
+      }
+      
+    </style>
+    <title>SillyIntroduction</title>
+  </head>
+  <body>
+    <header>
+      <img src="../Images/Titles/IntroTitle.png" alt="title" style="width:375px;height:75px;" class = "center">
+    </header>
+    <main>
+      <div id="TopTitle">
+        <img src="../Images/Titles/indexTitle.png" alt="title" style="width:750px;height:150px;" class = "center">
+      </div>
+      <div id="InfoBox" class="center">
+         <p style="text-align:center;">
+          - (only on the web of course) (just refer to me as apple or smth idk) <br>
+          - Im a cs major (future mcdonalds worker!!!!!!!) <br>
+          - I have experience with C#, Java, SQL (Microsoft access), and a little bit of HTML, HLSL, and python <br>
+          - Making games, 3D modelling (blender), and pixel art is pretty cool during free time (Also silksong (skong)) <br>
+          - I also have the sudden urge to draw once every 6 months but that phase only lasts a week? <br>
+          - I also made this website (and the art), which ill be updating constantly! <br>
+          - (also artcore and breakcore is goated) <br>
+          - Thanks for stopping by, drink a pickle pepsi <br>
+         </p>
+      </div>
+      <a href="../index.html" class="center"><img src="../Images/Buttons/GoBackBtn.png" alt="GoBack" style="width:456px;height:96px;"></a>
+    </main>
+  </body>
+</html>

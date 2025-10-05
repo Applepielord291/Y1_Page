@@ -1,6 +1,16 @@
 body { padding: 0; margin: 0 }
+html {
+    background-image: url('../../Images/Backgrounds/banner.png'), linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../../Images/Backgrounds/MainBg.gif');
+    background-repeat: repeat-y, repeat, repeat;
+    background-position: 50%;
+    background-attachment: fixed;
+    background-size: 1000px 1080px, cover, cover;
+    overflow-y: scroll;
+    scrollbar-color: #000000 #3e0446;
+    scrollbar-width: thin;
+}
 #unity-container { position: absolute }
-#unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
+#unity-container.unity-desktop { left: 50%; top: 40%; transform: translate(-50%, -50%) }
 #unity-container.unity-mobile { position: fixed; width: 100%; height: 100% }
 #unity-canvas { background: #000000 }
 .unity-mobile #unity-canvas { width: 100%; height: 100% }
@@ -11,6 +21,46 @@ body { padding: 0; margin: 0 }
 #unity-footer { position: relative }
 .unity-mobile #unity-footer { display: none }
 #unity-webgl-logo { float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
-#unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
+#unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px; color: white; }
 #unity-fullscreen-button { cursor:pointer; float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
 #unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
+#ControlsInfoBox {
+    width:400px;
+    height:275px;
+    line-height:3em;
+    overflow:scroll;
+    overflow-x: hidden;
+    padding:5px;
+    border: 4px double #ea9dff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 700px;
+    overflow-y: scroll;
+    scrollbar-color: #000000 #3e0446;
+    scrollbar-width: thin;
+}
+h1, h2, h3, p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+/* center alignment */
+#wrap3 {
+    float: left;
+    position: absolute;
+    left: 37.5%;
+}
+#content3 {
+    float: left;
+    position: absolute;
+    left: -37.5%;
+}

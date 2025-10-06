@@ -4,7 +4,7 @@ html {
     background-repeat: repeat-y, repeat, repeat;
     background-position: 50%;
     background-attachment: fixed;
-    background-size: 1000px 1080px, cover, cover;
+    background-size: 50%, cover, cover;
     overflow-y: scroll;
     scrollbar-color: #000000 #3e0446;
     scrollbar-width: thin;
@@ -34,8 +34,8 @@ html {
     border: 4px double #ea9dff;
     display: block;
     position: relative;
-    margin-left: 50%;
-    margin-top: 0%;
+    margin-left: 37%;
+    margin-top: 35%;
     overflow-y: scroll;
     scrollbar-color: #000000 #3e0446;
     scrollbar-width: thin;
@@ -63,5 +63,5 @@ h1, h2, h3, p {
     float: left;
     position: relative;
     left: -50%;
-    margin-top: 140%;
+    margin-top: -2%;
 }

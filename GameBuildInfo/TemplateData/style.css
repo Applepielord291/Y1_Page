@@ -4,7 +4,7 @@ html {
     background-repeat: repeat-y, repeat, repeat;
     background-position: 50%;
     background-attachment: fixed;
-    background-size: 50%, cover, cover;
+    background-size: 50% 100%, cover, cover;
     overflow-y: scroll;
     scrollbar-color: #000000 #3e0446;
     scrollbar-width: thin;

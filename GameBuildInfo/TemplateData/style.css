@@ -39,6 +39,21 @@ html {
     scrollbar-color: #000000 #3e0446;
     scrollbar-width: thin;
 }
+#ControlsInfoBox.unity-mobile {
+    width:25%;
+    height:25%;
+    line-height:3em;
+    overflow:scroll;
+    overflow-x: hidden;
+    padding:5px;
+    border: 4px double #ea9dff;
+    position: static;
+    margin-left: 37%;
+    margin-top: 35%;
+    overflow-y: scroll;
+    scrollbar-color: #000000 #3e0446;
+    scrollbar-width: thin;
+}
 h1, h2, h3, p {
     color: white;
     text-align: center;
@@ -59,6 +74,18 @@ h1, h2, h3, p {
     left: 50%;
 }
 #content3 {
+    float: left;
+    position: relative;
+    left: -50%;
+    margin-top: 5%;
+}
+/* center alignment */
+#wrap3.unity-mobile {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+#content3.unity-mobile {
     float: left;
     position: relative;
     left: -50%;

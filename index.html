@@ -17,7 +17,7 @@
         background-repeat: repeat-y, repeat, repeat;
         background-position: 50%;
         background-attachment: fixed;
-        background-size: 1000px 1080px, cover, cover;
+        background-size: 55%, cover, cover;
       }
       body {
         background-repeat: no-repeat;
@@ -35,48 +35,16 @@
         font-size: 18px;
         text-align: center;
       }
-      .button {
-        background-color: transparent;
-        background-repeat: no-repeat;
-        border: none;
-        cursor: pointer;
-        overflow: hidden;
-        outline: none;
-      } 
       /* left center alignment */
       #wrap {
         float: left;
-        position: absolute;
-        left: 25%;
+        position: relative;
+        left: 50%;
       }
       #content {
         float: left;
-        position: absolute;
-        left: -25%;
-      }
-      /* right center alignment */
-      #wrap2 {
-        float: left;
-        position: absolute;
-        left: 50%;
-      }
-      #content2 {
-        float: left;
-        position: absolute;
+        position: relative;
         left: -50%;
-      }
-      /* center alignment */
-      #wrap3 {
-        float: left;
-        position: absolute;
-        left: 37.5%;
-        
-      }
-      #content3 {
-        float: left;
-        position: absolute;
-        left: -37.5%;
-        top: 200px;
       }
       @keyframes MainTitleAnim {
         0%   {top:0px; animation-timing-function: ease-out;}
@@ -89,7 +57,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 0%;
       }
       #TopTitle {
         position:relative;
@@ -114,21 +82,13 @@
     <div class="test">
     <div id="wrap">
       <div id="content">
-        <a href="https://applepielord291.itch.io/" class="button"><img src="Images/Buttons/GamesBtn.png" alt="CGames" style="width:456px;height:96px;"></a>
-        <a href="https://www.youtube.com/@applee3925" class="button"><img src="Images/Buttons/YoutubeBtn.png" alt="Youtube" style="width:456px;height:96px;"></a>
+        <a href="https://applepielord291.itch.io/"><img src="Images/Buttons/GamesBtn.png" alt="CGames" style="width:456px;height:96px;"></a>
+        <a href="https://www.youtube.com/@applee3925"><img src="Images/Buttons/YoutubeBtn.png" alt="Youtube" style="width:456px;height:96px;"></a>
+        <br>
+        <a href="https://github.com/Applepielord291"><img src="Images/Buttons/GithubBtn.png" alt="Github" style="width:456px;height:96px;"></a>
+        <a href="Webpages/introduction.html"><img src="Images/Buttons/IntroBtn.png" alt="Introduction" style="width:456px;height:96px;"></a>
+        <br>
+        <a href="GameBuildInfo/index.html"><img src="Images/Buttons/ProceduralGolf.png" alt="GolfGame" style="width:456px;height:96px;"></a>
       </div>
-    </div>
-    <div id="wrap2">
-      <div id="content2">
-        <a href="https://github.com/Applepielord291" class="button"><img src="Images/Buttons/GithubBtn.png" alt="Github" style="width:456px;height:96px;"></a>
-        <a href="Webpages/introduction.html" class="button"><img src="Images/Buttons/IntroBtn.png" alt="Introduction" style="width:456px;height:96px;"></a>
-      </div>
-    </div>
-    <div id="wrap3">
-      <div id="content3">
-        <a href="GameBuildInfo/index.html" class="button"><img src="Images/Buttons/ProceduralGolf.png" alt="GolfGame" style="width:456px;height:96px;"></a>
-      </div>
-    </div>
-    </div>
   </body>
 </html>

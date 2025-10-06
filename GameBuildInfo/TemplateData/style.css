@@ -11,7 +11,7 @@ html {
 }
 #unity-container { position: absolute }
 #unity-container.unity-desktop { left: 50%; top: 40%; transform: translate(-50%, -50%) }
-#unity-container.unity-mobile { position: fixed; width: 100%; height: 100% }
+#unity-container.unity-mobile { position: absolute; width: 100%; height: 100%; margin-top: - 50%; }
 #unity-canvas { background: #000000 }
 .unity-mobile #unity-canvas { width: 100%; height: 100% }
 #unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
@@ -62,5 +62,5 @@ h1, h2, h3, p {
     float: left;
     position: relative;
     left: -50%;
-    margin-top: -2%;
+    margin-top: 5%;
 }

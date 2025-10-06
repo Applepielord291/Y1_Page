@@ -35,7 +35,7 @@ html {
     display: block;
     position: relative;
     margin-left: 50%;
-    margin-top: 100%;
+    margin-top: 0%;
     overflow-y: scroll;
     scrollbar-color: #000000 #3e0446;
     scrollbar-width: thin;
